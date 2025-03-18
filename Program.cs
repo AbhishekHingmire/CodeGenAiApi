@@ -3,9 +3,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Services
 builder.Services.AddControllers();
-
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -15,19 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// 🟢 Configure Kestrel to listen to Railway's injected PORT
+// ✅ Listen on 0.0.0.0:<PORT> from env (Railway compatible)
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    serverOptions.ListenAnyIP(int.Parse(port));
+    serverOptions.Listen(System.Net.IPAddress.Any, int.Parse(port));
 });
 
 var app = builder.Build();
 
-// 🟢 Show simple message on root "/"
+// ✅ Simple root test
 app.MapGet("/", () => "🚀 CodeGenerator API is running!");
 
-// Swagger only in dev (optional)
+// Swagger in dev
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -35,7 +34,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
