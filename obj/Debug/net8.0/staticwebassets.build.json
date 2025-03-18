@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3vPEKcvKwAbIWe2EzsQUCHp47Yk2aGNi67fRFibpqdA=",
+  "Source": "CodeGeneratorApi",
+  "BasePath": "_content/CodeGeneratorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
