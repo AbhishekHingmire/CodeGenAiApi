@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\codegenaiapi\\codegeneratorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:codegeneratorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodeGeneratorApi",
+              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\CodeGeneratorApi.csproj",
+              "RelativeDocumentMoniker": "CodeGeneratorApi.csproj",
+              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\CodeGeneratorApi.csproj*",
+              "RelativeToolTip": "CodeGeneratorApi.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T21:13:37.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

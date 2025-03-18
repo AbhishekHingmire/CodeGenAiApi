@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\",
+  "WorkspaceRootPath": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\migrations\\20250318195406_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:migrations\\20250318195406_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|c:\\users\\abhishek.hingmire\\onedrive - wolters kluwer\\desktop\\proj\\codegeneratorapi\\codegenaiapi\\codegeneratorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6DAF791-E540-4EF0-A4B7-75E2DBBBF537}|CodeGeneratorApi.csproj|solutionrelative:codegeneratorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,115 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:33:26.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:53:23.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:52:32.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:50:45.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T19:40:54.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250318195406_init1.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Migrations\\20250318195406_init1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250318195406_init1.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Migrations\\20250318195406_init1.cs",
-              "RelativeToolTip": "Migrations\\20250318195406_init1.cs",
+              "Title": "CodeGeneratorApi",
+              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\CodeGeneratorApi.csproj",
+              "RelativeDocumentMoniker": "CodeGeneratorApi.csproj",
+              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\CodeGenAiApi\\CodeGeneratorApi.csproj*",
+              "RelativeToolTip": "CodeGeneratorApi.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:54:07.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:39:19.774Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T21:13:37.962Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:51:20.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ABHISHEK.HINGMIRE\\OneDrive - Wolters Kluwer\\Desktop\\Proj\\CodeGeneratorApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:40:13.594Z"
             }
           ]
         }
