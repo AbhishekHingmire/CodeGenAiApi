@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: CodeGenAiApi
+    runtime: dotnet
+    repo: https://github.com/AbhishekHingmire/CodeGenAiApi
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet run
+    region: oregon
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        value: YOUR_CONNECTION_STRING_HERE
