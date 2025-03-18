@@ -19,7 +19,7 @@ var port = Environment.GetEnvironmentVariable("PORT") ?? "5020"; // instead of 5
 
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    serverOptions.Listen(System.Net.IPAddress.Any, int.Parse(port));
+    serverOptions.ListenAnyIP(5020); // Bind to the port Railway expects
 });
 
 var app = builder.Build();
