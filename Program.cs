@@ -1,24 +1,24 @@
-using CodeGeneratorApi.Data;
+﻿using CodeGeneratorApi.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services to the container
 builder.Services.AddControllers();
 
+// SQL Server connection with retry on failure
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         sqlOptions => sqlOptions.EnableRetryOnFailure()
-    ));
+    )
+);
 
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add this block:
+// ✅ Port binding for Railway
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 builder.WebHost.ConfigureKestrel(options =>
 {
@@ -27,17 +27,23 @@ builder.WebHost.ConfigureKestrel(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ✅ Root test route for Railway
+app.MapGet("/", () => "🚀 CodeGenerator API is running!");
+
+// Swagger UI in dev only
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// ❌ Disable HTTPS redirection on Railway (causes failures)
+if (!app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
