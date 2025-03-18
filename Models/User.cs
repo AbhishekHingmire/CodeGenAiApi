@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 
 namespace CodeGeneratorApi.Models
 {
@@ -7,5 +8,8 @@ namespace CodeGeneratorApi.Models
         public string Username { get; set; }
         public string Password { get; set; }
         public bool PaymentDone { get; set; } = false;
+
+        // Navigation property
+        public ICollection<ChatMessage> ChatMessages { get; set; }
     }
 }

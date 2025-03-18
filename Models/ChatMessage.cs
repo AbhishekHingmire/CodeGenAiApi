@@ -1,3 +1,4 @@
+using System;
 
 namespace CodeGeneratorApi.Models
 {
@@ -7,5 +8,8 @@ namespace CodeGeneratorApi.Models
         public int UserId { get; set; }
         public string Message { get; set; }
         public DateTime CreatedAt { get; set; }
+
+        // Navigation property
+        public User User { get; set; }
     }
 }
