@@ -10,11 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout your code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Log in to Azure Container Registry (ACR)
       - name: Login to Azure Container Registry
         uses: docker/login-action@v2
         with:
@@ -22,11 +20,10 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
 
-      # Step 3: Build and push Docker image
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./CodeGenAiApi
+          file: ./CodeGenAiApi/Dockerfile
           push: true
           tags: abhidevcr.azurecr.io/codegen-api:latest
