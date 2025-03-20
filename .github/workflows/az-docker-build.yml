@@ -14,16 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Create directory and generate Dockerfile
-      - name: Create directory and generate Dockerfile
-        run: |
-          mkdir -p CodeGenAiApi
-          echo "FROM python:3.9-slim" > CodeGenAiApi/Dockerfile
-          echo "WORKDIR /app" >> CodeGenAiApi/Dockerfile
-          echo "COPY . /app" >> CodeGenAiApi/Dockerfile
-          echo "CMD [\"python\", \"app.py\"]" >> CodeGenAiApi/Dockerfile
-
-      # Step 3: Log in to Azure Container Registry (ACR)
+      # Step 2: Log in to Azure Container Registry (ACR)
       - name: Login to Azure Container Registry
         uses: docker/login-action@v2
         with:
@@ -31,11 +22,11 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
 
-      # Step 4: Build and push Docker image
+      # Step 3: Build and push Docker image
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./CodeGenAiApi
-          file: ./CodeGenAiApi/Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           tags: abhidevcr.azurecr.io/codegen-api:latest
