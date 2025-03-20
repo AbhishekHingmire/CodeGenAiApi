@@ -18,16 +18,17 @@ namespace CodeGeneratorApi.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(User user)
+        public IActionResult Register(User? user)
         {
             _context.Users.Add(user);
             _context.SaveChanges();
             return Ok(user);
         }
 
-        [HttpPost("login")]
-        public IActionResult Login(User user)
+        [HttpGet("login")]
+        public IActionResult Login()
         {
+            User user = new User() ;
             var existingUser = _context.Users.FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
             if (existingUser == null)
                 return Unauthorized("Invalid credentials");

@@ -37,29 +37,10 @@
       }
     },
     "/api/Auth/login": {
-      "post": {
+      "get": {
         "tags": [
           "Auth"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -170,6 +151,25 @@
         }
       }
     },
+    "/": {
+      "get": {
+        "tags": [
+          "CodeGeneratorApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Payment/complete/{userId}": {
       "post": {
         "tags": [
@@ -249,6 +249,9 @@
           "createdAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false
@@ -270,6 +273,13 @@
           },
           "paymentDone": {
             "type": "boolean"
+          },
+          "chatMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChatMessage"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
