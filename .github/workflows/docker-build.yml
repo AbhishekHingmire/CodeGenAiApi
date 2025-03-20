@@ -26,7 +26,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./CodegenApi
-          file: ./CodegenApi/Dockerfile
+          context: ./CodegenApiAi
+          file: ./Dockerfile
           push: true
           tags: abhidevcr.azurecr.io/codegen-api:latest
