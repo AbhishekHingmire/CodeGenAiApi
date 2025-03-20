@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Login to Azure Container Registry
+      # Step 2: Log in to Azure Container Registry (ACR)
       - name: Login to Azure Container Registry
         uses: docker/login-action@v2
         with:
@@ -26,7 +26,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./CodeGenAiApi
-          file: ./CodeGenAiApi/Dockerfile
+          context: ./CodeGeneratorApi
+          file: ./CodeGeneratorApi/Dockerfile
           push: true
           tags: abhidevcr.azurecr.io/codegen-api:latest
