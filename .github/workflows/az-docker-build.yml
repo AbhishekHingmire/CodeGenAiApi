@@ -14,9 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Generate Dockerfile
-      - name: Generate Dockerfile
+      # Step 2: Create directory and generate Dockerfile
+      - name: Create directory and generate Dockerfile
         run: |
+          mkdir -p CodeGenAiApi
           echo "FROM python:3.9-slim" > CodeGenAiApi/Dockerfile
           echo "WORKDIR /app" >> CodeGenAiApi/Dockerfile
           echo "COPY . /app" >> CodeGenAiApi/Dockerfile
