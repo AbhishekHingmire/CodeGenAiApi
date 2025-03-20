@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./CodeGeneratorApi
-          file: ./CodeGeneratorApi/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: abhidevcr.azurecr.io/codegen-api:latest
