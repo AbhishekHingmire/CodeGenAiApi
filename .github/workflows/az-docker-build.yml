@@ -20,9 +20,7 @@ jobs:
           mkdir -p CodeGenAiApi
           echo "FROM python:3.9-slim" > CodeGenAiApi/Dockerfile
           echo "WORKDIR /app" >> CodeGenAiApi/Dockerfile
-          echo "COPY requirements.txt /app/" >> CodeGenAiApi/Dockerfile
           echo "COPY . /app" >> CodeGenAiApi/Dockerfile
-          echo "RUN pip install -r /app/requirements.txt" >> CodeGenAiApi/Dockerfile
           echo "CMD [\"python\", \"app.py\"]" >> CodeGenAiApi/Dockerfile
 
       # Step 3: Log in to Azure Container Registry (ACR)
